@@ -1,0 +1,18 @@
+Iñaki:
+  name: Iñaki
+  # avatar: "/assets/images/bio-photo.jpg"
+  bio: A test website builder
+  location: Barcelona, Spain
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/igsoblechero"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/inniakis"
+
+Not Iñaki:
+  name: Not Iñaki
+  # avatar: "/assets/images/bio-photo.jpg"
+  bio: Probably a different person
+  location: Not Barcelona, Maybe Spain
