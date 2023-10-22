@@ -81,3 +81,7 @@ bundle exec jekyll serve
 ```
 
 You can browse your new website from http://localhost:4000. If you want to enable live reload of file changes, so that you can see your edit changes reflected on the fly, just add `--livereload` to the previous command.
+
+## Site deployment setup
+
+Follow the instructions [this page](https://jekyllrb.com/docs/continuous-integration/github-actions/) with one detail: before committing the file with the workflow, remove the line with the `ruby-version` property, since it will not be needed thanks to the `rbenv` configuration that was performed before.
